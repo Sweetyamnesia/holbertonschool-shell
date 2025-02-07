@@ -1,0 +1,1 @@
+This is a repository about using Shell and know basics commands.
