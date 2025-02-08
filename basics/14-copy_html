@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -u *html /basics
+find . -name '*.html'
