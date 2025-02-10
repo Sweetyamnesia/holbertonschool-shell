@@ -1,3 +1,2 @@
 #!/bin/bash
-mkdir mydirectory
-chmod 755 mydirectory
+mkdir -m 755 directory
