@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR  | egrep -v '^\.$|^\.\.$'
+ls -laR .
