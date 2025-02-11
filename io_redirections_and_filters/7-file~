@@ -1,0 +1,3 @@
+#!/bin/bash
+var='*\'"Best School"\'*$?\*\*\*\*\*:)'
+echo "Best School" > "$var"
