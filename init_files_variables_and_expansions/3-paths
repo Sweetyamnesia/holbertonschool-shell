@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ld / | wc -l
+ls -R | grep ":$" | wc -l
