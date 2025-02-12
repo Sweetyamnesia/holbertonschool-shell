@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv TRUEKNOWLEDGE num1=128 echo $num1
