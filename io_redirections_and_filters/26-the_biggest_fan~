@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -d' ' -f1 /path/to/access.log | sort | uniq -c | sort -rn
