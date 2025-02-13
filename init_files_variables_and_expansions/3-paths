@@ -1,6 +1,2 @@
 #!/bin/bash
-for dir in $(echo $PATH | tr ':' '\n'); do
-  if [ -d "$dir" ]; then
-    echo "$dir"
-  fi
-done
+$(echo $PATH | tr ':' '\n')
