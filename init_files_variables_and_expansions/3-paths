@@ -1,2 +1,6 @@
 #!/bin/bash
-echo $(grep -o ":" <<< "$PATH" | wc -l)
+for dir in $(echo $PATH | tr ':' '\n'); do
+  if [ -d "$dir" ]; then
+    echo "$dir"
+  fi
+done
