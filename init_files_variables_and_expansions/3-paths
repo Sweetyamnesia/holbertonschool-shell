@@ -1,2 +1,2 @@
 #!/bin/bash
-find "$PWD" -type d
+find $PATH -exec stat -c '%F' {} \; | sort | uniq -c | sort -rn
