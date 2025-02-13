@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ld $PWD/*
+xargs -n1 -d: <<< $PATH
