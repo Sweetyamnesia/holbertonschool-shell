@@ -1,2 +1,2 @@
 #!/bin/bash
-xargs -n1 -d: <<< $PATH
+echo $PATH | tr \: \\n | wc -l
